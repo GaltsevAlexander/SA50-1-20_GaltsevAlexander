@@ -1,0 +1,35 @@
+.first {
+   display: flex;
+}
+
+.qw {
+    width: 60px;
+    height: 40px;
+    background-color: red;
+}
+
+.we {
+    width: 220px;
+    height: 40px;
+    background-color: red;
+    margin-left: 20px;
+}
+
+.second {
+    display: flex;
+}
+
+.er {
+    width: 60px;
+    height: 40px;
+    background-color: red;
+    margin-top: 20px;
+}
+
+.rt {
+    width: 220px;
+    height: 40px;
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 20px;
+}
