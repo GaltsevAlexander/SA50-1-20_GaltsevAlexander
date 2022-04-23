@@ -1,0 +1,141 @@
+.background{
+    width: auto;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: url(noise_lines_transparent@2X.png), 
+    radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%),
+    #211F20;
+    }
+.logo{
+    position: absolute;
+    width: 184px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+.w{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    left: 40px;
+    top: 60px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+.w2{
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    left: 44px;
+    top: 105px;      
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.nv{
+    position: absolute;
+    width: 443px;
+    height: 27px;
+    left: 757px;
+    top: 76px;
+    display: flex;
+    flex-direction: row;
+}
+.s{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    margin-left: 35px;
+}
+.s2{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    margin-left: 35px;
+}
+.s3{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    margin-left: 35px;
+}
+.s4{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FAFAFA;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    margin-left: 35px;
+}
+a {
+    color: #FAFAFA; 
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration-color: #F1CDB3;
+    text-decoration: underline;
+    text-underline-position: -10px;
+}
