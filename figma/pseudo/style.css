@@ -45,3 +45,12 @@
     font-size: 24px;
     line-height: 29px;
 }
+.button:hover{
+    background: rgb(81, 255, 0);
+}
+.button2:hover{
+    background-color: rgb(255, 0, 255);
+}
+.button3:hover{
+    background-color: rgb(255, 251, 0);
+}
