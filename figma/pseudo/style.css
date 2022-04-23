@@ -46,11 +46,20 @@
     line-height: 29px;
 }
 .button:hover{
-    background: rgb(81, 255, 0);
+    background: rgb(184, 244, 156);
 }
 .button2:hover{
-    background-color: rgb(255, 0, 255);
+    background-color: rgb(110, 77, 110);
 }
 .button3:hover{
-    background-color: rgb(255, 251, 0);
+    background-color: rgb(139, 139, 95);
+}  
+.button:active{
+    background-color: #883a3a;
+}
+.button2:active{
+    background-color: #00e1ff;
+}
+.button3:active{
+    background-color: #cba593;
 }
