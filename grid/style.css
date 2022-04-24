@@ -1,0 +1,30 @@
+.nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center
+}
+.list__item {
+    font-family: Six Caps-normal;
+    font-size: 64px;
+    line-height: 22px;
+    padding: 40px;
+    font-weight: light;
+    color: black;
+}
+.list {
+    width: 1350px;
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #828282;
+}
+.list__item__link {
+    font-family: Osqald-normal;
+    font-size: 34px;
+    line-height: 22px;
+    padding: 30px;
+    font-weight: light;
+    color: black;
+    text-decoration: none;
+}
