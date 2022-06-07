@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.border {
+    border-style:dotted;
+    border-radius: 3px;
+    border-color:grey;
+    padding-bottom:55px;
+    width:100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.cube1 {
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: red;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.cube2{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: rgb(175, 19, 206);
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+.cube3{
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: green;
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+.cube4{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.cube5{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(175, 19, 206);
+    position: relative;
+    top: 25px;
+    left: 45px;
+}
+.cube6{
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+.cube7{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(175, 19, 206);
+    position: relative;
+    top: 25px;
+    left: 45px;
+    z-index: 1;
+}
+.full{
+    top: 50px;
+    left: 50px;
+    height: 500px;
+    width: 600px;
+    background-color: greenyellow;
+    position: relative;
+}
+.little1{
+    background-color: white;
+    position: relative;
+    width: 140px;
+    height: 140px;
+    top: -400px;
+    left: 100px;
+}
+.little2{
+    position: relative;
+    background-color: white;
+    width: 140px;
+    height: 140px;
+    top: -280px;
+    left: 465px;
+}
+    .info {
+        width: 500px;
+        height: 500px;
+        overflow: scroll;
+        padding-left: auto;
+        padding-top: auto;
+    }
+
+    .b {
+        background: rgb(248, 207, 130);
+        border: 3px solid yellowgreen;
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+    .c {
+        background: whitesmoke;
+        width: 400px;
+        height: 100px;
+        padding: 15px;
+        padding-top: auto;
+        margin-left: 26px;
+        line-height: 20px;
+    }
