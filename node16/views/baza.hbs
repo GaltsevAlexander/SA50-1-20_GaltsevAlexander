@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+</head>
+
+<body>
+    <h1>Список всех студентов</h1>
+    <p><a href="/create" style="text-decoration: none;">Добавить студента</a></p>
+    <p><a href="/groupcreate" style="text-decoration: none;">Добавить группу</a></p>
+    <p><a href="/specialitycreate" style="text-decoration: none;">Добавить специальность</a></p>
+
+    <table>
+        <tr style="color: rgba(11, 164, 241, 0.479);">
+            <th>Имя</th>
+            <th>Фамилия</th>
+            <th>Отчество</th>
+            <th>Специальность</th>
+            <th>Название группы</th>
+        </tr>
+        {{#each student_name}}
+        <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.second_name}}</td>
+            <td>{{this.surname}}</td>
+            <td>{{this.name_spl}}</td>
+            <td>{{this.Gruppa}}</td>
+        </tr>
+        {{/each}}
+    </table>
+</body>
+
+</html>

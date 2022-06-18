@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавление студента</title>
+</head>
+
+<body>
+    <h1>Добавление студента</h1>
+    <form method="POST">
+        <label>Фамилия</label><br>
+        <input name="second_name"/><br><br>
+        <label>Имя</label><br>
+        <input name="name"/><br><br>
+        <label>Отчество</label><br>
+        <input name="surname"/><br><br>
+        <label>Год рождения</label><br>
+        <input name="birthday"/><br><br>
+        <select name="stud_group">
+            {{#each student_group}}
+            <option value="{{this.id}}">{{this.Gruppa}}...{{this.special}}</option>
+            {{/each}}
+        </select>
+        <input type="submit" value="Отправить"/>
+    </form>
+    <a href="/">К списку студентов</a>
+</body>
+
+</html>
